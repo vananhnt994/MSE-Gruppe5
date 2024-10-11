@@ -1,5 +1,11 @@
 # MSE-Gruppe5
 
+## Was ist Git und warum sollte es verwenden werden?
+
+***Was ist Git?***
+
+***Warum sollte es verwendet werden?***
+
 ## Git mit IntelliJ / PyCharm benutzen: Local Repository und Remote Repository
 In Git wird zwischen remote und local repositories unterschieden. 
 
