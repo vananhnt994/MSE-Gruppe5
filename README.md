@@ -2,9 +2,17 @@
 
 ## Was ist Git und warum sollte es verwenden werden?
 
-***Was ist Git?***
+***Was ist Git?***  
+Git ist ein verteiltes Versionskontrollsystem (Version Control System, VCS), welches in der Softwareentwicklung verwendet wird, um Änderungen an Dateien (insbesondere im Quellcode), zu verwalten und zu verfolgen. Es hilft Entwicklern dabei, Änderungen festzuhalten, vorzunehmen und mit anderen Entwicklern in Teams zusammenzuarbeiten. Git speichert jede Änderung an einem Projekt in sogenannten "Commits", die als Schnappschüsse des Projekts zu bestimmten Zeitpunkten dienen. Dadurch kann man den gesamten Verlauf des Projekts nachverfolgen und bei Bedarf zu einer früheren Version zurückkehren. Git ermöglicht es, mehrere Entwicklungszweige zu erstellen, die unabhängig voneinander entwickelt werden können. Es erleichtert die parallele Entwicklung von neuen Features oder das Testen von Ideen, ohne den Hauptzweig zu beeinträchtigen. Änderungen können später wieder zusammengeführt werden.
 
-***Warum sollte es verwendet werden?***
+***Vorteile von Git:***  
+- Verteiltes System: Jeder hat eine vollständige Kopie des Projekts lokal, was unabhängig vom Server funktioniert.  
+- Effiziente Zusammenarbeit: Mehrere Entwickler können parallel arbeiten, Änderungen einfach zusammenführen und Konflikte lösen.  
+- Branching und Merging: Entwicklung in Branches, um neue Features zu testen oder Fehler zu beheben, ohne den Hauptcode zu beeinflussen.  
+- Schnelligkeit: Lokale Operationen sind sehr schnell, da keine ständige Serveranbindung notwendig ist.  
+- Versionshistorie: Vollständige Rückverfolgbarkeit aller Änderungen, einfaches Zurücksetzen auf frühere Versionen.  
+- Fehlerbehandlung: Wenn Fehler gemacht werden, ermöglicht Git es, zu früheren Versionen zurückzukehren, fehlerhafte Commits zu entfernen oder Änderungen rückgängig zu machen, ohne das gesamte Projekt zu gefährden.  
+- Skalierbarkeit: Geeignet für kleine und große Projekte, sowie die Einzelarbeit.  
 
 ## Git mit IntelliJ / PyCharm benutzen: Local Repository und Remote Repository
 In Git wird zwischen remote und local repositories unterschieden. 
