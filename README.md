@@ -34,6 +34,23 @@ Git ist ein verteiltes Versionskontrollsystem (Version Control System, VCS), wel
 - Fehlerbehandlung: Wenn Fehler gemacht werden, ermöglicht Git es, zu früheren Versionen zurückzukehren, fehlerhafte Commits zu entfernen oder Änderungen rückgängig zu machen, ohne das gesamte Projekt zu gefährden.
 - Skalierbarkeit: Geeignet für kleine und große Projekte, sowie die Einzelarbeit.
 
+## Die wichtigsten Git Befehle
+
+- git init - initialisieren einer lokalen Github umgebung
+- git add - fügt eine Datei dem lokalen Verzeichnis hinzu
+- git clone - klonen eines bestehenden Repositorys
+- git commit - speichert Änderungen in der Staging Area, dauerhaft im lokalen Repository
+- git status - zeigt aktuellen Status des Repositorys und den Status der Dateien innerhalb des Repositorys
+- git branch <branch-name> - Erstellt einen neuen Branch
+- git merge <branch-name> - führt Änderungen aus einem anderen Branch, mit dem aktuellen Branch zusammen
+- git push - überträgt lokale Änderungen in einen Angegebenen remote Branch
+- git pull - holt Änderungen von einem Remote Branch und fügt sie dem lokalen Branch hinzu
+- git rm - entfernt eine Datei 
+- git mv - verschiebt eine Datei
+- git diff - zeigt Unterschiede zwischen zwei Commits
+- git log - zeigt den Commit-Verlauf
+- git reset - setzt das Repository auf einen bestimmten Stand zurück
+
 ## Git mit IntelliJ/PyCharm benutzen
 In Git wird zwischen remote und local repositories unterschieden.
 
@@ -49,3 +66,5 @@ eigentliche Arbeit an Code etc. statt. Alle neuen Codeteile oder Modifikationen 
 anschließend auf das remote repo gepusht werden, um allen Teammitgliedern Zugriff auf die lokal erfolgten Änderungen zu geben.
 Im lokalen repository kann auch gearbeitet werden, wenn aktuell keine Verbindung zum Internet möglich ist. Die Änderungen lassens ich dennoch lokal committen und können wenn Verbindung möglich ist auf das remote gepusht werden.
 Falls Änderungen auf dem remote repository vorgenommen wurden, sollten diese auch lokal übernommen und aktualisiert werden (bspw. durch fetch oder pull).
+
+
