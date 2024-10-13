@@ -6,7 +6,7 @@
 <br>
 <a href="https://github.com/vananhnt994/MSE-Gruppe5/stargazers"><img src="https://img.shields.io/github/stars/vananhnt994/MSE-Gruppe5" alt="Stars Badge"/></a>
 <a href="https://github.com/vananhnt994/MSE-Gruppe5/pulls"><img src="https://img.shields.io/github/issues-pr/vananhnt994/MSE-Gruppe5" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/vananhnt994/MSE-Gruppe5/issues"><img src="https://img.shields.io/github/issues/vananhnt994/MSE-Gruppe5" alt="Issues Badge"/></a>
+<a href="https://github.com/vananhnt994/MSE-Gruppe5/commits"><img src="https://img.shields.io/github/commit-activity/t/vananhnt994/MSE-Gruppe5" alt="Total Commits Badge"/></a>
 
 </div>
 
