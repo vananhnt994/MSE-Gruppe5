@@ -33,6 +33,25 @@ Git ist ein verteiltes Versionskontrollsystem (Version Control System, VCS), wel
 - Versionshistorie: Vollständige Rückverfolgbarkeit aller Änderungen, einfaches Zurücksetzen auf frühere Versionen.
 - Fehlerbehandlung: Wenn Fehler gemacht werden, ermöglicht Git es, zu früheren Versionen zurückzukehren, fehlerhafte Commits zu entfernen oder Änderungen rückgängig zu machen, ohne das gesamte Projekt zu gefährden.
 - Skalierbarkeit: Geeignet für kleine und große Projekte, sowie die Einzelarbeit.
+
+## Die wichtigsten Git Befehle
+
+- git init - initialisieren einer lokalen Github umgebung
+- git add - fügt eine Datei dem lokalen Verzeichnis hinzu
+- git clone - klonen eines bestehenden Repositorys
+- git commit - speichert Änderungen in der Staging Area, dauerhaft im lokalen Repository
+- git status - zeigt aktuellen Status des Repositorys und den Status der Dateien innerhalb des Repositorys
+- git branch <branch-name> - Erstellt einen neuen Branch
+- git merge <branch-name> - führt Änderungen aus einem anderen Branch, mit dem aktuellen Branch zusammen
+- git push - überträgt lokale Änderungen in einen Angegebenen remote Branch
+- git pull - holt Änderungen von einem Remote Branch und fügt sie dem lokalen Branch hinzu
+- git rm - entfernt eine Datei
+- git mv - verschiebt eine Datei
+- git diff - zeigt Unterschiede zwischen zwei Commits
+- git log - zeigt den Commit-Verlauf
+- git reset - setzt das Repository auf einen bestimmten Stand zurück
+
+
 ## Branches und Ihre Nutzung
 
 ***Git-Branch***
