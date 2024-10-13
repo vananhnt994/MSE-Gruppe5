@@ -105,9 +105,9 @@ Merge-Konflikte in Git treten auf, wenn zwei Branches Änderungen an denselben Z
 
 ## Tipps zur Vermeidung von Merge-Konflikten
 
-- **Regelmäßiges Pullen**: Halte deinen Branch regelmäßig mit dem Hauptbranch synchronisiert.
+- **Regelmäßiges Pullen**: Halte den Branch regelmäßig mit dem Hauptbranch synchronisiert.
 - **Kleinere Commits**: Arbeite in kleineren Einheiten und mache häufige Commits.
-- **Kommunikation im Team**: Informiere dein Team über größere Änderungen oder Features, an denen man arbeitet.
+- **Kommunikation im Team**: Informiere das Team über größere Änderungen oder Features, an denen man arbeitet.
 
 Merge-Konflikte sind ein normaler Teil des Entwicklungsprozesses in Git. Mit den richtigen Strategien und einem systematischen Ansatz lassen sie sich jedoch effektiv bewältigen.
 
