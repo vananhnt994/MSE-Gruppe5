@@ -4,9 +4,9 @@
 <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
 <a href="https://discord.gg/D98cKTzd"><img src="https://img.shields.io/discord/1032643348026109992.svg?style=flat&label=Join%20Community&color=7289DA" alt="Join Community Badge"/></a>
 <br>
-<a href="https://github.com/abhisheknaiidu/vananhnt994/MSE-Gruppe5/stargazers"><img src="https://img.shields.io/github/stars/vananhnt994/MSE-Gruppe5" alt="Stars Badge"/></a>
-<a href="https://github.com/abhisheknaiidu/vananhnt994/MSE-Gruppe5/pulls"><img src="https://img.shields.io/github/issues-pr/vananhnt994/MSE-Gruppe5" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/abhisheknaiidu/vananhnt994/MSE-Gruppe5/issues"><img src="https://img.shields.io/github/issues/vananhnt994/MSE-Gruppe5" alt="Issues Badge"/></a>
+<a href="https://github.com/vananhnt994/MSE-Gruppe5/stargazers"><img src="https://img.shields.io/github/stars/vananhnt994/MSE-Gruppe5" alt="Stars Badge"/></a>
+<a href="https://github.com/vananhnt994/MSE-Gruppe5/pulls"><img src="https://img.shields.io/github/issues-pr/vananhnt994/MSE-Gruppe5" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/vananhnt994/MSE-Gruppe5/issues"><img src="https://img.shields.io/github/issues/vananhnt994/MSE-Gruppe5" alt="Issues Badge"/></a>
 
 </div>
 
@@ -67,7 +67,7 @@ Merge-Konflikte in Git treten auf, wenn zwei Branches Änderungen an denselben Z
 
 1. **Erkennen des Konflikts**: Git zeigt beim Mergen an, dass ein Konflikt aufgetreten ist. Die betroffenen Dateien werden als "unmerged" markiert.
 
-2. **Überprüfen der Konflikte**: Du kannst den Befehl `git status` verwenden, um eine Liste der Dateien zu sehen, die Konflikte aufweisen.
+2. **Überprüfen der Konflikte**: Man kann den Befehl `git status` verwenden, um eine Liste der Dateien zu sehen, die Konflikte aufweisen.
 
 3. **Konflikte lösen**:
    - Öffne die betroffenen Dateien in einem Texteditor oder einer IDE. Git markiert die Konfliktstellen mit speziellen Markierungen:
@@ -78,17 +78,17 @@ Merge-Konflikte in Git treten auf, wenn zwei Branches Änderungen an denselben Z
      (Änderungen aus dem gemergten Branch)
      >>>>>>> branch-name
      ```
-   - Entscheide, welche Änderungen du beibehalten möchtest, und entferne die Markierungen sowie die unerwünschten Teile.
+   - Entscheide, welche Änderungen beibehaltet werden sollen, und entferne die Markierungen sowie die unerwünschten Teile.
 
-4. **Dateien als gelöst markieren**: Nachdem du die Konflikte behoben hast, speichere die Datei und verwende den Befehl `git add <dateiname>`, um Git mitzuteilen, dass der Konflikt gelöst wurde.
+4. **Dateien als gelöst markieren**: Nachdem die Konflikte behoben werden, kann die Datei gespeichert und der Befehl `git add <dateiname>` verwendet werden, um Git mitzuteilen, dass der Konflikt gelöst wurde.
 
-5. **Merge abschließen**: Führe `git commit` aus, um den Merge abzuschließen. Git erstellt einen neuen Commit, der die zusammengeführten Änderungen enthält.
+5. **Merge abschließen**:  `git commit` soll ausgeführt werden, um den Merge abzuschließen. Git erstellt einen neuen Commit, der die zusammengeführten Änderungen enthält.
 
 ## Tipps zur Vermeidung von Merge-Konflikten
 
 - **Regelmäßiges Pullen**: Halte deinen Branch regelmäßig mit dem Hauptbranch synchronisiert.
 - **Kleinere Commits**: Arbeite in kleineren Einheiten und mache häufige Commits.
-- **Kommunikation im Team**: Informiere dein Team über größere Änderungen oder Features, an denen du arbeitest.
+- **Kommunikation im Team**: Informiere dein Team über größere Änderungen oder Features, an denen man arbeitet.
 
 Merge-Konflikte sind ein normaler Teil des Entwicklungsprozesses in Git. Mit den richtigen Strategien und einem systematischen Ansatz lassen sie sich jedoch effektiv bewältigen.
 
